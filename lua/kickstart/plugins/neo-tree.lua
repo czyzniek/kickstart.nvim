@@ -15,6 +15,7 @@ return {
     { '<leader>\\', ':Neotree reveal position=float<CR>', desc = 'NeoTree float reveal', silent = true },
   },
   opts = {
+    close_if_last_window = true,
     filesystem = {
       window = {
         mappings = {
